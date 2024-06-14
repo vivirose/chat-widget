@@ -75,7 +75,7 @@ console.log(messages)
                             </button>
                         </div>
                     </form>}
-                    <div className='overflow-y-auto h-96 mb-4'>
+                    <div className='overflow-y-auto h-44 mb-4'>
                         {messages.map((msg, index) => (
                             <div key={index} className={`my-2 text-right`}>
                                 <span
